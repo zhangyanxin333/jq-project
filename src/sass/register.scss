@@ -1,0 +1,230 @@
+/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+#body {
+    width: 900px;
+    margin: 0 auto;
+    .reg_hd {
+        padding: 27px 0 33px;
+        .logo_img {
+            display: inline-block;
+            width: 238px;
+            height: 74px;
+            img {
+                vertical-align: middle;
+            }
+        }
+    }
+    .reg_bd {
+        height: auto;
+        min-height: 480px;
+        overflow: visible;
+        .mail_check_box {
+            padding-left: 0px;
+            padding: 30px 0 5px 0;
+            .right_box_reg {
+                color: #333;
+                font-weight: 700;
+                font-size: 20px;
+                width: 100%;
+            }
+        }
+        .reg_style {
+            overflow: hidden;
+            padding-top: 10px;
+            padding-left: 250px;
+            background: #FBFBFB;
+            li {
+                width: 180px;
+                height: 55px;
+                text-align: center;
+                line-height: 60px;
+                font-size: 22px;
+                color: #7E7E7E;
+                float: left;
+                cursor: pointer;
+                font-family: 微软雅黑;
+            }
+            .seleted {
+                border-bottom: 2px solid #4C91C5;
+                color: #4C91C5;
+            }
+            li.phone {
+                background: url(/public/images/main_phones.jpg) no-repeat;
+            }
+            li.email {
+                background: url(/public/images/main_mail.jpg) 0 10px no-repeat;
+            }
+        }
+        .info_add_box {
+            margin-top: 20px;
+            padding-top: 20px;
+            border: 0px;
+            .formelem {
+                padding-left: 220px;
+                ul li {
+                    margin-bottom: 15px;
+                    clear: both;
+                    zoom: 1;
+                }
+            }
+        }
+    }
+    .reg_bd_other {
+        padding: 0 30px 30px 30px;
+    }
+} */
+*{
+    margin:0;
+    padding:0;
+}
+input{
+    outline: none;
+}
+button{
+    outline: none;    
+}
+.header {
+    width: 100%;
+    border-bottom: 2px solid #2f2f2f;
+    background-color: #fff;
+}
+
+.header_con {
+    width: 966px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    a {
+        color: #1a1a1a;
+        cursor: pointer;
+    }
+
+    .logo {
+        margin: 28px 26px 0 0;
+        float: left;
+    }
+
+    .logo_title {
+        float: left;
+        height: 34px;
+        line-height: 34px;
+        font-size: 18px;
+        color: #000;
+        margin-top: 53px;
+    }
+}
+
+.regist {
+    width: 100%;
+    height: 620px;
+}
+
+.regist_top {
+    width: 966px;
+    height: 48px;
+    background: url(../images/regist_one.png) no-repeat center;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.regist_con {
+    width: 966px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 60px;
+
+    .form_left {
+        width: 477px;
+        overflow: hidden;
+        float: left;
+
+        .item_account {
+            width: 100%;
+            margin-top: 0;
+            line-height: 50px;
+            position: relative;
+
+            label {
+                position: absolute;
+                top: 0;
+                left: 22px;
+                z-index: 5;
+                color: #242323;
+                font-size: 15px;
+            }
+
+            input {
+                width: 355px;
+                line-height: 35px;
+                padding-left: 120px;
+                height: 50px;
+                border: 1px solid #ddd;
+                border-radius: 0;
+                font-size: 14px;
+                color: #242323;
+            }
+        }
+
+        .item_password {
+            @extend .item_account;
+            margin-top: 50px;
+        }
+
+        .btn_regist {
+            width: 100%;
+            margin-top: 74px;
+            height: 58px;
+            line-height: 46px;
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            background-color: #fa7117;
+            padding: 6px 30px;
+            border: 0;
+            color: #fff;
+        }
+    }
+
+    .form_right {
+        width: 385px;
+        height: 320px;
+        border: 1px solid #dedede;
+        float: right;
+
+        .top {
+            height: 75px;
+            line-height: 75px;
+            color: #242323;
+            font-size: 15px;
+            border-bottom: 1px solid #dedede;
+            text-align: center;
+
+            a {
+                color: #fa7117;
+                text-decoration: underline;
+            }
+        }
+
+        .con {
+            padding: 45px 36px;
+
+            p {
+                color: #242323;
+                font-size: 15px;
+                line-height: 28px;
+            }
+
+            .wx-login {
+                margin-top: 15px;
+            }
+        }
+
+    }
+}

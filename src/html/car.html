@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/car.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <form action="##">
+        <div class="shop-car-box" id="shop-car-box-onload" idstr="">
+            <div class="clear_15"></div>
+            <div class="shop-car-box-list">
+                <div class="shop-car-box-list-tr car-list-title">
+                    <div class="car-chk" style="height:40px;"></div>
+                    <div class="car-item">商品信息</div>
+                    <div class="car-price">单价（元）</div>
+                    <div class="car-num">数量</div>
+                    <div class="car-sum">金额（元）</div>
+                    <div class="car-op">操作</div>
+                </div>
+                <div class="shop-car-box-list-tr car-list-title">
+                    <div class="car-chk" style="width:185px;text-align:left;">
+                        <input type="checkbox" value="true" id="checkbox_all_top_new" class="common_check_input">
+                        <img src="" width="28" height="28" style="vertical-align:middle;margin-left:45px;">
+                        <label for="checkbox_all_top" style="vertical-align:middle;margin-left:10px;">凤凰游戏· 大陆站
+                        </label>
+                    </div>
+                </div>
+                <div class="clear_15"></div>
+                <div class="shop-car-box-con">
+                    <!-- <div class="shop-car-box-list-tr car-list-box">
+                        <div class="car-chk">
+                            <input type="checkbox" name="car_pid[]" class="common_check_input list_shop" value="4475"
+                                data-id="4475" shop-id="184177">
+                        </div>
+                        <div class="car-item"><a href="" target="_blank"><img src="" style="opacity: 1;"></a>
+                            <p><a href="" target="_blank">幻想三国志5 PC版 中文 数字版</a></p>
+                        </div>
+                        <div class="car-price" id="shop_price_4475">65.00</div>
+                        <div class="car-num">
+                            <div class="fx-num-jj"><a class="reduce_new" href="##" data-id="4475">-</a><input
+                                    type="text" name="car_pnum_4475" value="1" id="num_4475" class="text common_shop_num shop_num"
+                                    max="18289" data-id="4475"><a class="add" href="##" data-id="4475">+</a></div>
+                        </div>
+                        <div class="car-sum" id="totalprice_4475">65</div>
+                        <div class="car-op"><a href="##" data-id="184177" class="delete_shop">删除</a></div>
+                    </div>
+                    <div class="shop-car-box-list-tr car-list-box">
+                            <div class="car-chk">
+                                <input type="checkbox" name="car_pid[]" class="common_check_input list_shop" value="4475"
+                                    data-id="4475" shop-id="184177" >
+                            </div>
+                            <div class="car-item"><a href="" target="_blank"><img src="" style="opacity: 1;"></a>
+                                <p><a href="" target="_blank">幻想三国志5 PC版 中文 数字版</a></p>
+                            </div>
+                            <div class="car-price" id="shop_price_4475">65.00</div>
+                            <div class="car-num">
+                                <div class="fx-num-jj"><a class="reduce_new" href="##" data-id="4475">-</a><input
+                                        type="text" name="car_pnum_4475" value="1" id="num_4475" class="text common_shop_num shop_num"
+                                        max="18289" data-id="4475"><a class="add" href="##" data-id="4475">+</a></div>
+                            </div>
+                            <div class="car-sum" id="totalprice_4475">65</div>
+                            <div class="car-op"><a href="##" data-id="184177" class="delete_shop">删除</a></div>
+                    </div> -->
+                </div>
+                <div class="clear_15"></div>
+                <div class="shop-car-box-menu">
+                    <div class="shop-car-box-menu-left"><input type="checkbox" value="true" id="checkbox_all_bottom_new"
+                            class="common_check_input"><label for="checkbox_all_bottom_new">全选</label><i class="shop-ico"></i><a
+                            href="##" id="delete_all_shop">删除选中的商品</a></div>
+                    <div class="shop-car-box-menu-right">
+                        <div class="car-select-box"><span>已选商品 </span>
+                            <font id="products_sum_num">0</font> <span>件</span>
+                        </div>
+                        <div class="car-select-box"><span>合计(不含运费)： </span>
+                            <font class="yahei">¥</font>
+                            <font id="products_sum_money">0</font>
+                        </div>
+                        <div class="car-submit-no" id="car_sub_button"><a href="##" class="yahei">结 算</a></div>
+                    </div>
+                </div>
+                <div class="clear_15"></div>
+            </div>
+        </div>
+    </form>
+    <div id="footer"></div>
+</body>
+
+</html>
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="../js/common/header/header.js"></script>
+<script src="../js/common/header/page.js"></script>
+<script src="../js/js/car.js"></script>
+<script src="../js/common/footer/footer.js"></script>
+<script src="../js/common/footer/footPage.js"></script>

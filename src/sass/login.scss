@@ -1,0 +1,227 @@
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+input{
+    outline: none;
+}
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+#page, #page3 {
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+    #header {
+        padding-top: 0;
+        #logo {
+            padding: 30px 0 0;
+        }
+        
+        h1 {
+            font-size: 18px;
+            a {
+                color: #6d6d6d;
+                text-decoration: none;
+            }
+        }
+    }
+    #content{
+        width:1190px;
+        height: 500px;
+        .login {
+            position: relative;
+            min-height: 500px;
+            _height: 500px;
+            .login-box {
+                width: 315px;
+                margin: 60px 0 48px 720px;
+                z-index: 1;
+                border: 2px solid #dedede;
+                border-top: 2px solid #ff4200;
+                .hd {
+                    height: 16px;
+                    margin: 0 20px;
+                    padding-top: 10px;
+                    position: relative;
+                    z-index: 1;
+                    h2 {
+                        display: block;
+                        font-size: 14px;
+                        padding-left: 10px;
+                        color: #333;
+                        z-index: 1;
+                    }
+                }
+                .bd {
+                    position: relative;
+                    z-index: 200;
+                    margin: 0 30px;
+                    zoom: 1;
+                    .alipay-box,.yx-box {
+                        color: #666;
+                        zoom: 1;
+                        .login-msg {
+                            padding-top: 15px;
+                            .errorMessage {
+                                background: url(../img/stuff.png) no-repeat -319px -449px #FFF2F2;
+                                border-color: #FF8080;
+                                line-height: 18px;
+                                padding: 2px 10px 2px 23px;
+                            }
+                        }
+                        .free_reg {
+                            height: 40px;
+                            line-height: 24px;
+                            text-align: right;
+                            a {
+                                color: #6d6d6d;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                .field {
+                    padding: 10px 0;
+                    zoom: 1;
+                    position: relative;
+                    z-index: 1;
+                    label {
+                        display: block;
+                        width: 27px;
+                        height: 27px;
+                        line-height: 27px;
+                        color: #FFF;
+                        text-align: center;
+                        background: #ccc url(../img/icon-label2.png) no-repeat 50% 7px;
+                        position: absolute;
+                        left: 0;
+                        top: 10px;
+                        text-indent: -9999em;
+                        outline: 0;
+                    }
+                    .login-text {
+                        width: 220px;
+                        height: 19px;
+                        line-height: 19px;
+                        padding: 3px;
+                        padding-left: 30px;
+                        vertical-align: middle;
+                        border: 1px solid #dedede;
+                    }
+                }
+                .username-field {
+                    padding-top: 32px;
+                    label {
+                        top: 32px;
+                    }
+                }
+                
+                .pwd-field label {
+                    background-position: 50% -30px;
+                }
+                .safe {
+                    position: relative;
+                    padding: 0px 0 10px;
+                    line-height: 24px;
+                    min-height: 24px;
+                    _height: 24px;
+                    input {
+                        vertical-align: middle;
+                    }
+                    label {
+                        vertical-align: middle;
+                        color: #aaa;
+                        font: 12px/1.5 Tahoma,Helvetica,Arial,'\5B8B\4F53',sans-serif;
+                    }
+                    a {
+                        color: #6d6d6d;
+                        font: 12px/1.5 Tahoma,Helvetica,Arial,'\5B8B\4F53',sans-serif;
+                        text-decoration: none;
+                        line-height: 24px;
+                        margin-left:-40px;
+                    }
+                }
+                .field-checkcode {
+                    width: 255px;
+                    height: 45px;
+                    padding-top: 5px;
+                    padding-bottom: 0;
+                    //position: static;
+                    padding: 10px 0;
+                    zoom: 1;
+                    .checkcode {
+                        width: 51px;
+                        padding-left: 3px;
+                        //width: 220px;
+                        height: 19px;
+                        line-height: 19px;
+                        padding: 3px;
+                        //padding-left: 30px;
+                        vertical-align: middle;
+                        border: 1px solid #dedede;
+                    }
+                    .check-code-img {
+                        border: none;
+                        height: 40px;
+                        vertical-align: middle;
+                        width: 150px;
+                        margin-right: 1px;
+                    }
+                    .change-code {
+                        display: inline-block;
+                        line-height: 14px;
+                        margin: 0;
+                        vertical-align: middle;
+                        color: #666;
+                        width: 36px;
+                        height: 28px;
+                    }
+                }
+                .submit {
+                    padding: 5px 0 0px;
+                    overflow: hidden;
+                    clear: both;
+                    zoom: 1;
+                    button {
+                        width: 255px;
+                        height: 38px;
+                        border: 0;
+                        display: inline-block;
+                        overflow: hidden;
+                        vertical-align: middle;
+                        line-height: 36px;
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #FFF;
+                        background: #ff4700;
+                        border-radius: 3px;
+                        cursor: pointer;
+                        zoom: 1;
+                    }
+                }
+            }
+            .login-bg {
+                position: absolute;
+                width: 530px;
+                height: 322px;
+                overflow: hidden;
+                left: 80px;
+                top: 0px;
+                z-index: 0;
+                a{
+                    float:left;
+                    img{
+                        width:265px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+

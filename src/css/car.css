@@ -1,0 +1,268 @@
+@charset "UTF-8";
+body { overflow-x: hidden; margin: 0; font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif; color: #6C6C6C; text-align: center; background: #FFFFFF; }
+
+a { text-decoration: none; }
+
+form, input, select, div, ul, li, p, h, h1, h2, h3, h4 { margin: 0; padding: 0; list-style-type: none; font-size: 12px; font-weight: normal; }
+
+.ali-station-ico-home, .ali-station-ico-x, span.ali-header-ico, a.ali-header-ico, i.shop-ico, .shop-ico, .ali-photo-carousel-pic-num ul li { background-image: url(../img/ali-station-nav.png); background-repeat: no-repeat; }
+
+.ali-header { width: 100%; z-index: 10000; background: #FBFCFB; border-bottom: 1px solid #E2E7E5; }
+
+.ali-header-con { width: 1210px; height: 35px; margin: 0 auto; line-height: 35px; }
+
+.ali-header-con-left { display: inline; float: left; line-height: 36px; height: 36px; overflow: hidden; }
+
+.ali-header-con li { display: inline; float: left; }
+
+.ali-header-con li a { float: left; margin-right: 5px; }
+
+.ali-header a:link { color: #6C6C6C; }
+
+a.login_a:visited { color: #F22E00; margin-right: 7px; }
+
+a.login_a:link { color: #F22E00; margin-right: 7px; }
+
+.ali-header a:visited { color: #6C6C6C; }
+
+.ali-header a:hover { color: #F22E00; }
+
+.ali-header-con-right { display: inline; float: right; }
+
+.ali-header-con li { display: inline; float: left; position: relative; z-index: 100; }
+
+.ali-header-con li .menu-hd { padding: 0 6px; z-index: 10002; position: relative; height: 35px; line-height: 35px; overflow: hidden; _display: inline; _zoom: 1; color: #6C6C6C; }
+
+.ali-header-xia { width: 7px; height: 4px; overflow: hidden; display: block; background-position: -44px -151px; float: left; margin: 16px 5px 0px 0px; }
+
+.ali-header-con-right li .menu-bd { z-index: 10001; position: relative; display: none; margin-top: -1px; }
+
+.newshop-myshop-box { width: 75px; height: auto; overflow: hidden; border: 1px solid #E5E6E5; position: absolute; background: #FFF; left: 0px; top: 0px; }
+
+.newshop-myshop-box a:link { width: 75px; height: 28px; overflow: hidden; display: block; line-height: 28px; text-align: left; text-indent: 5px; background: #FFFFFF; color: #6C6C6C; }
+
+.my-gwc { width: 13px; height: 13px; overflow: hidden; display: block; background-position: -1px -171px; float: left; margin: 12px 5px 0px 0px; }
+
+#gwc_num { color: #F22E00; font-weight: bold; }
+
+.my-shoucang { width: 12px; height: 11px; overflow: hidden; display: block; background-position: -20px -170px; float: left; margin: 12px 5px 0px 0px; }
+
+.h_top { width: 9px; height: 9px; background: url(../img/header_btn2.png) no-repeat; margin: 13px 0px 0px 0px; display: inline-block; }
+
+.header_game { width: 940px; position: absolute; top: 35px; border: 1px solid #E2E7E5; right: -65px; height: 275px; background-color: #fff; display: none; }
+
+.header_game label { width: 11px; height: 5px; position: absolute; top: -5px; right: 70px; background: url(../img/header_jiantou.png) no-repeat; }
+
+.list_nav:hover .header_game { display: block; }
+
+.header_game_con { width: 906px; height: auto; overflow: hidden; zoom: 1; margin: 0 auto; padding-top: 20px; }
+
+.header_game_top { width: 100%; height: 63px; overflow: hidden; }
+
+.header_game_top a { float: left; height: 63px; width: 174px; margin-right: 9px; }
+
+.header_game_bottom { width: 906px; height: auto; overflow: hidden; zoom: 1; margin: 0 auto; padding-top: 12px; }
+
+.header_game_hot { width: 540px; float: left; height: auto; zoom: 1; overflow: hidden; }
+
+.header_game_g { width: 100%; height: 32px; color: #717171; border-bottom: 1px solid #E2E7E5; text-align: left; font-weight: bold; line-height: 32px; }
+
+.header_game_t { width: 174px; float: left; margin-right: 9px; height: auto; overflow: hidden; zoom: 1; padding-top: 3px; }
+
+.header_game_t p { width: 100%; height: 24px; line-height: 24px; overflow: hidden; margin-top: 3px; }
+
+.header_game_t p em { float: left; width: 3px; height: 5px; margin-top: 10px; margin-right: 5px; background: url(../images/header_l.png) no-repeat; }
+
+.header_game_t p i { float: left; height: 11px; width: 11px; margin-top: 6px; }
+
+.header_game_t p i.s_h { background: url(../images/header_h.jpg) no-repeat; }
+
+.header_game_t p i.s_n { background: url(../images/header_n.jpg) no-repeat; }
+
+.header_game_f, .header_game_zk { width: 174px; float: left; height: auto; zoom: 1; overflow: hidden; margin-left: 9px; }
+
+.clear_10 { width: 100%; height: 10px; overflow: hidden; clear: both; }
+
+.shop-header { width: 1210px; height: 83px; margin: 0 auto; }
+
+.shop-header-logo { float: left; max-width: 350px; overflow: hidden; height: 75px; }
+
+.shop-header-search { float: right; }
+
+.shop-header-search-div { width: 621px; height: 75px; overflow: hidden; float: left; margin-right: 90px; }
+
+.shop-header-search-box { width: 615px; height: 30px; overflow: hidden; border: 3px solid #F84B23; margin-top: 5px; line-height: 30px; }
+
+.search-left { width: 38px; height: 30px; overflow: hidden; float: left; }
+
+.search-ico { width: 14px; height: 14px; overflow: hidden; display: block; background: url() -2px -187px; margin: 8px auto 0px auto; }
+
+.search-txt { width: 490px; height: 30px; overflow: hidden; display: block; border: 0px; float: left; outline: none; background: #FFF; line-height: 30px; color: #6C6C6C; }
+
+.search-sub { width: 87px; height: 30px; overflow: hidden; background: #F84B23; float: left; border: 0px; outline: none; cursor: pointer; color: #FFF; font-size: 14px; text-align: center; font-weight: bold; }
+
+.shop-header-search-wz { width: 620px; height: 25px; overflow: hidden; line-height: 28px; text-align: left; color: #999999; }
+
+.shop-header-search-wz span { float: left; }
+
+.shop-header-services { width: 117px; height: 38px; overflow: hidden; float: left; margin: 5px 0px 0px 10px; display: inline; }
+
+.shop-header-search-wz a:link { float: left; color: #999999; margin-right: 8px; }
+
+.shop-header-search-wz a:hover { color: #F84B23; }
+
+.ali-header-con li .menu-hd:hover .ali-header-xia { background-position: -56px -151px; }
+
+.ali-header-con li:hover .my-shoucang { background-position: -37px -170px; }
+
+.ali-header-con-myshop:hover .newshop-myshop-box { display: block; }
+
+.ali-header-con-right .menu-hover .menu-bd { display: block; }
+
+.ali-header-con-right li .menu-bd { z-index: 10001; position: relative; display: none; margin-top: -1px; }
+
+.newshop-myshop-box { width: 75px; height: auto; overflow: hidden; border: 1px solid #E5E6E5; position: absolute; background: #FFF; left: 0px; top: 0px; }
+
+.newshop-myshop-box a:visited { width: 75px; height: 28px; overflow: hidden; display: block; line-height: 28px; text-align: left; text-indent: 5px; background: #FFFFFF; color: #6C6C6C; }
+
+.newshop-myshop-box a:link { width: 75px; height: 28px; overflow: hidden; display: block; line-height: 28px; text-align: left; text-indent: 5px; background: #FFFFFF; color: #6C6C6C; }
+
+.ali-header-con-right .menu-hover .menu-hd { padding: 0 5px 1px; border-width: 0px 1px 0px 1px; border-style: solid; border-color: #eee; /* background: #fff; */ }
+
+.menu-hover .menu-hd { padding: 0 6px 1px; border-width: 0px 1px 0px 0px; border-style: solid; border-color: #eee; background: #fff; }
+
+.menu-hd:hover a { color: #F22E00; }
+
+.shop-nav { width: 100%; height: 40px; line-height: 40px; background: #DA5B3D; }
+
+.shop-nav-box { width: 1210px; height: 40px; margin: 0 auto; }
+
+.shop-nav-menu { width: 230px; height: 40px; background: #dd3c27; float: left; color: #FFFFFF; position: relative; }
+
+.shop-nav-menu-bd { width: 230px; height: 40px; font-size: 14px; font-family: "微软雅黑"; text-align: left; line-height: 42px; box-shadow: -5px 0 5px -5px #666, 0 -5px 5px -5px #666, 5px 0 5px -5px #666; -webkit-box-shadow: -5px 0 5px -5px #666, 0 -5px 5px -5px #666, 5px 0 5px -5px #666; -moz-box-shadow: -5px 0 5px -5px #666,0 -5px 5px -5px #666,5px 0 5px -5px #666; }
+
+.nav-class { width: 18px; height: 18px; overflow: hidden; background-position: -2px -209px; float: left; margin: 12px 12px 0px 13px; display: inline; }
+
+.shop-nav-box ul { width: 980px; height: 40px; overflow: hidden; float: left; display: inline; font-family: "微软雅黑"; }
+
+.shop-nav-box ul li { width: 65px; height: 40px; overflow: hidden; float: left; text-align: center; font-size: 14px; }
+
+.shop-nav-box ul li a:visited { color: #FFF; width: 65px; height: 40px; overflow: hidden; display: block; }
+
+.shop-nav-box ul li a:link { color: #FFF; width: 65px; height: 40px; overflow: hidden; display: block; }
+
+.shop-nav-box ul li.current { background: #CC2108; }
+
+h1.style_14, h2.style_14, h3.style_14 { font-size: 14px; }
+
+.shop-nav-menu-hd { width: 230px; height: 370px; overflow: hidden; background: #dd3c27; position: absolute; top: 40px; left: 0px; display: block; z-index: 998; }
+
+.shop-footer-xian { border-top: 2px solid #FB5702; width: 100%; height: auto; overflow: hidden; background: #FFF; }
+
+.shop-footer-xian .shop-footer-box { width: 1210px; height: auto; overflow: hidden; margin: 0 auto; padding-bottom: 40px; zoom: 1; }
+
+.shop-footer-xian .shop-footer-box .clear_10 { width: 100%; height: 10px; overflow: hidden; clear: both; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-left { float: left; text-align: left; line-height: 25px; position: relative; color: #8C8D8C; width: 180px; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-left em { width: 241px; height: 148px; overflow: hidden; display: block; position: absolute; left: 126px; top: 115px; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-left p { width: 370px; height: 25px; overflow: hidden; display: block; clear: both; line-height: 25px; text-align: left; margin: 5px 0px 5px 0px; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-left p span { float: left; margin-right: 5px; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-left p .shop-footer-qq { width: 77px; height: 24px; overflow: hidden; display: block; background: url(../img/qq.jpg) no-repeat; float: left; margin-right: 10px; cursor: pointer; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-right { float: right; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-right ul { float: left; display: inline; text-align: left; margin-left: 40px; line-height: 35px; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-right ul li span { font-family: "微软雅黑"; font-size: 14px; color: #8C8D8C; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-right ul li a { display: inline; color: #8C8D8C; }
+
+.shop-footer-xian .shop-footer-box .shop-footer-box-right ul li a:hover { color: #FF4400; }
+
+.shop-footer-cprt { clear: both; height: 16px; line-height: 16px; text-align: center; padding-bottom: 20px; }
+
+.shop-footer-cprt a { color: #6C6C6C; text-decoration: none; }
+
+.shop-footer-cprt a:hover { color: #FF4400; }
+
+.prod, .shop-car-box .shop-car-box-list .car-list-title .car-chk { float: left; width: 100px; height: auto; overflow: hidden; text-align: center; position: relative; }
+
+.input, .shop-car-box .shop-car-box-list .car-list-title .car-chk input, .shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-chk input { display: block; position: absolute; left: 19px; top: 15px; cursor: pointer; }
+
+.label, .shop-car-box .shop-car-box-list .car-list-title .car-chk label, .shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-chk label { color: #3c3c3c; }
+
+.item, .shop-car-box .shop-car-box-list .car-list-title .car-item, .shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-item { float: left; width: 400px; height: auto; overflow: hidden; }
+
+.price, .shop-car-box .shop-car-box-list .car-list-title .car-price, .shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-price { float: left; width: 120px; height: auto; overflow: hidden; }
+
+.num, .shop-car-box .shop-car-box-list .car-list-title .car-num, .shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-num { float: left; width: 150px; height: auto; overflow: hidden; }
+
+.sum, .shop-car-box .shop-car-box-list .car-list-title .car-sum, .shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-sum { float: left; width: 120px; height: auto; overflow: hidden; }
+
+.op, .shop-car-box .shop-car-box-list .car-list-title .car-op, .shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-op { float: left; width: 90px; height: auto; overflow: hidden; }
+
+.shop-car-box { width: 990px; height: auto; overflow: hidden; margin: 0 auto; text-align: left; }
+
+.shop-car-box .clear_15 { width: 100%; height: 15px; overflow: hidden; clear: both; }
+
+.shop-car-box .shop-car-box-list { width: 990px; height: auto; overflow: hidden; border-top: 1px solid #CCC; margin: 0 auto; }
+
+.shop-car-box .shop-car-box-list .car-list-title { line-height: 40px; text-align: left; color: #3c3c3c; }
+
+.shop-car-box .shop-car-box-list .clear_15 { width: 100%; height: 15px; overflow: hidden; clear: both; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con { width: 988px; height: auto; overflow: hidden; border: 1px solid #CCC; margin-bottom: 20px; clear: both; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box { width: 988px; height: 80px; overflow: hidden; background: #FCFCFC; border-bottom: 1px solid #E7E7E7; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-chk { float: left; width: 100px; height: 50px; overflow: hidden; text-align: center; position: relative; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-chk input { top: 34px; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-item a { color: #3C3C3C; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-item img { width: 50px; height: 50px; overflow: hidden; display: block; float: left; margin-top: 15px; margin-right: 10px; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-item p { line-height: 25px; text-align: left; margin-top: 15px; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-price { font-weight: bold; line-height: 60px; color: #3c3c3c; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-num .fx-num-jj { width: 95px; height: auto; overflow: hidden; float: left; margin-top: 20px; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-num .fx-num-jj a { float: left; margin: 5px 0 0 0; display: block; width: 15px; height: 15px; line-height: 99em; overflow: hidden; background: url(../img/reduce-add.gif) no-repeat; display: inline; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-num .fx-num-jj .text { float: left; margin: 0 5px; display: inline; border: solid 1px #ccc; padding: 2px 3px 2px 8px; width: 40px; line-height: 18px; font-size: 14px; outline: 0; font-family: "Arial"; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-num .fx-num-jj a.add { background-position: -16px 0; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-sum { font-weight: bold; line-height: 60px; color: #FE4602; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-op { line-height: 60px; }
+
+.shop-car-box .shop-car-box-list .shop-car-box-con .car-list-box .car-op a { color: #3C3C3C; }
+
+.shop-car-box-menu { width: 990px; height: 50px; overflow: hidden; background: #e5e5e5; margin: 0 auto; line-height: 50px; position: relative; color: #3C3C3C; }
+
+.shop-car-box-menu .shop-car-box-menu-left { float: left; }
+
+.shop-car-box-menu .shop-car-box-menu-left input { float: left; display: inline; margin-top: 19px; margin-left: 15px; margin-right: 5px; cursor: pointer; }
+
+.shop-car-box-menu .shop-car-box-menu-left label { float: left; cursor: pointer; margin-right: 20px; }
+
+.shop-car-box-menu .shop-car-box-menu-left a { float: left; color: #3c3c3c; }
+
+.shop-car-box-menu .shop-car-box-menu-right { float: right; }
+
+.shop-car-box-menu .shop-car-box-menu-right .car-select-box { float: left; height: 50px; line-height: 50px; margin-right: 20px; }
+
+.shop-car-box-menu .shop-car-box-menu-right .car-select-box span { float: left; }
+
+.shop-car-box-menu .shop-car-box-menu-right .car-select-box font { color: #FF4400; font-weight: bold; font-size: 18px; float: left; display: inline; margin: 0px 2px 0px 2px; }
+
+.shop-car-box-menu .shop-car-box-menu-right .car-submit-no { width: 120px; height: 50px; overflow: hidden; float: left; }
+
+.shop-car-box-menu .shop-car-box-menu-right .car-submit-no a { width: 120px; height: 50px; overflow: hidden; display: block; background: #e5e5e5; color: #9c9c9c !important; text-align: center; font-size: 18px; cursor: not-allowed; }

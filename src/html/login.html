@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body id="body">
+    <div id="page">
+        <div id="header">
+            <h1 id="logo">
+                <a href="">
+                    <img src="../img/logo1.jpg" alt="">
+                </a>
+            </h1>
+        </div>
+        <div id="content">
+            <div class="login">
+                <div id="J_LoginBox" class="login-box no-longlogin ">
+                    <div class="hd">
+                        <ul>
+                            <li class="current">
+                                <h2>登录</h2>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bd">
+                        <div class="yx-box">
+                            <div class="static">
+                                <!--<form id="ajax_form" action="##">-->
+                                    <div id="J_Message" class="login-msg msg">
+                                        <div class="errorMessage" id="LoginForm_username_em_" style="display:none"></div>
+                                        <div class="errorMessage" id="LoginForm_password_em_" style="display:none"></div>
+                                    </div>
+                                    <div class="field username-field">
+                                        <label class="iconfont"></label>
+                                        <input class="login-text" tabindex="1" autocomplete="off" placeholder="手机号/用户名/邮箱"
+                                            name="LoginForm[username]" id="LoginForm_username" type="text"> </div>
+                                    <div class="field pwd-field">
+                                        <label class="iconfont"></label>
+                                        <span>
+                                            <input class="login-text" tabindex="2" autocomplete="off" placeholder="密码"
+                                                name="LoginForm[password]" id="LoginForm_password" type="password">
+                                        </span>
+                                    </div>
+                                    <div class="safe">
+                                        <input id="ytLoginForm_remeber" type="hidden" value="0" name="LoginForm[remeber]"><input
+                                            name="LoginForm[remeber]" id="LoginForm_remeber" value="1" type="checkbox">
+                                        <label for="LoginForm_remeber">下次自动登录 </label>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="" target="_blank">忘记密码?</a>
+                                    </div>
+                                    <div class="field field-checkcode">
+                                        <input class="login-text checkcode" tabindex="3" placeholder="验证码" name="LoginForm[code]"
+                                            id="LoginForm_code" type="text"> <img src="../img/codey.html" data-src=""
+                                            class="check-code-img cdo">
+                                        
+                                    </div>
+                                    <div class="submit">
+                                        <button type="submit" class="J_Submit" tabindex="5">登 录</button>
+                                    </div>
+                                <!--</form>-->
+                                <div class="free_reg"><a target="_blank" href="">免费注册<div style="color:red">送优惠券</div></a></div>
+
+                            </div>　
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="login-bg">
+                    <div class="login-abc">
+                        <a href="" target="_blank"><img src="../img/left.jpg"></a>
+                        <a href="" target="_blank"><img src="../img/right.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="../js/js/login.js"></script>

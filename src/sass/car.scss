@@ -1,0 +1,290 @@
+@import "base";
+.prod{
+    float: left;
+    width: 100px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.input{
+    display: block;
+    position: absolute;
+    left: 19px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.label{
+    color: #3c3c3c;
+}
+
+.item{
+    float: left;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+}
+
+.price{
+    float: left;
+    width: 120px;
+    height: auto;
+    overflow: hidden;
+}
+
+.num{
+    float: left;
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+}
+
+.sum{
+    float: left;
+    width: 120px;
+    height: auto;
+    overflow: hidden;
+}
+
+.op{
+    float: left;
+    width: 90px;
+    height: auto;
+    overflow: hidden;
+}
+.shop-car-box {
+    width: 990px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: left;
+    .clear_15 {
+        width: 100%;
+        height: 15px;
+        overflow: hidden;
+        clear: both;
+    }
+    .shop-car-box-list {
+        width: 990px;
+        height: auto;
+        overflow: hidden;
+        border-top: 1px solid #CCC;
+        margin: 0 auto;
+        .car-list-title {
+            line-height: 40px;
+            text-align: left;
+            color: #3c3c3c;
+            .car-chk {
+                @extend .prod;
+                input {
+                    @extend .input;
+                }
+                label{
+                    @extend .label;
+                }
+            }
+            .car-item {
+                @extend .item;
+            }
+            .car-price {
+                @extend .price;
+            }
+            .car-num {
+                @extend .num;
+            }
+            .car-sum {
+                @extend .sum;
+            }
+            .car-op {
+                @extend .op;
+            }
+        }
+        .clear_15 {
+            width: 100%;
+            height: 15px;
+            overflow: hidden;
+            clear: both;
+        }
+        .shop-car-box-con {
+            width: 988px;
+            height: auto;
+            overflow: hidden;
+            border: 1px solid #CCC;
+            margin-bottom: 20px;
+            clear: both;
+            .car-list-box {
+                width: 988px;
+                height: 80px;
+                overflow: hidden;
+                background: #FCFCFC;
+                border-bottom: 1px solid #E7E7E7;
+                .car-chk {
+                        float: left;
+                        width: 100px;
+                        height: 50px;
+                        overflow: hidden;
+                        text-align: center;
+                        position: relative;
+                    input {
+                        @extend .input;
+                        top:34px;
+                    }
+                    label{
+                        @extend .label;
+                    }
+                }
+                .car-item {
+                    @extend .item;
+                    a{
+                        color: #3C3C3C;
+                    }
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        overflow: hidden;
+                        display: block;
+                        float: left;
+                        margin-top: 15px;
+                        margin-right: 10px;
+                    }
+                    p {
+                        line-height: 25px;
+                        text-align: left;
+                        margin-top: 15px;
+                    }
+                }
+                .car-price {
+                    @extend .price;
+                    font-weight: bold;
+                    line-height: 60px;
+                    color: #3c3c3c;
+                }
+                .car-num {
+                    @extend .num;
+                    .fx-num-jj {
+                        width: 95px;
+                        height: auto;
+                        overflow: hidden;
+                        float: left;
+                        margin-top: 20px;
+                        a {
+                            float: left;
+                            margin: 5px 0 0 0;
+                            display: block;
+                            width: 15px;
+                            height: 15px;
+                            line-height: 99em;
+                            overflow: hidden;
+                            background: url(../img/reduce-add.gif) no-repeat;
+                            display: inline;
+                        }
+                        .text {
+                            float: left;
+                            margin: 0 5px;
+                            display: inline;
+                            border: solid 1px #ccc;
+                            padding: 2px 3px 2px 8px;
+                            width: 40px;
+                            line-height: 18px;
+                            font-size: 14px;
+                            outline: 0;
+                            font-family: "Arial";
+                        }
+                        a.add {
+                            background-position: -16px 0;
+                        }
+                    }
+                }
+                .car-sum {
+                    @extend .sum;
+                    font-weight: bold;
+                    line-height: 60px;
+                    color: #FE4602;
+                }
+                .car-op {
+                    @extend .op;
+                    line-height: 60px;
+                    a{
+                        color: #3C3C3C;
+                    }
+                }
+                
+
+            }
+        }
+    }
+    
+}
+
+.shop-car-box-menu {
+    width: 990px;
+    height: 50px;
+    overflow: hidden;
+    background: #e5e5e5;
+    margin: 0 auto;
+    line-height: 50px;
+    position: relative;
+    color: #3C3C3C;
+    .shop-car-box-menu-left {
+        float: left;
+        input {
+            float: left;
+            display: inline;
+            margin-top: 19px;
+            margin-left: 15px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        label {
+            float: left;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+        a{
+        float: left;
+        color: #3c3c3c;
+        }
+        a:hover{
+
+        }
+    }
+    .shop-car-box-menu-right {
+        float: right;
+        .car-select-box {
+            float: left;
+            height: 50px;
+            line-height: 50px;
+            margin-right: 20px;
+            span{
+                float:left;
+            }
+            font {
+                color: #FF4400;
+                font-weight: bold;
+                font-size: 18px;
+                float: left;
+                display: inline;
+                margin: 0px 2px 0px 2px;
+            }
+        }
+        .car-submit-no {
+            width: 120px;
+            height: 50px;
+            overflow: hidden;
+            float: left;
+            a {
+                width: 120px;
+                height: 50px;
+                overflow: hidden;
+                display: block;
+                background: #e5e5e5;
+                color: #9c9c9c !important;
+                text-align: center;
+                font-size: 18px;
+                cursor: not-allowed;
+            }
+        }
+    }
+}
